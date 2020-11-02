@@ -31,7 +31,6 @@ function App(props) {
       <input data-testid="sampleText" value={sampleText} onChange={(e)=>{
             setSampleText(e.target.value)
       }}/>
-      changes to be pushed till PRE
     </>
   );
 }
