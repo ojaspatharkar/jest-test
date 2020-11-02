@@ -31,12 +31,6 @@ function App(props) {
       <input data-testid="sampleText" value={sampleText} onChange={(e)=>{
             setSampleText(e.target.value)
       }}/>
-      <ul data-testid="list">
-        <li>one</li>
-        <li>two</li>
-        <li>tree</li>
-
-      </ul>
     </>
   );
 }
